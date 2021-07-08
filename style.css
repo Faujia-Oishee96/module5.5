@@ -5,18 +5,19 @@ header{
     padding-bottom: 40px;
     
 }
-.navbar{
+.navbar > ul{
     background-color:  #333;
     position: fixed;
     opacity: 0.8;
     width: 100%;
     display: flex;
-    top: 0px;
-    padding-left:350px;
+    padding:10px 0 10px 350px;
+    margin: 0;
+    list-style: none;
 }
 .navbar a{
    text-decoration: none;
-   color: rgb(167, 46, 46);
+   color: white;
    padding:10px 40px 10px 40px;
    font-size: 1.5rem;
 }

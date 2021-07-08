@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(189, 181, 181);
+}
+.flexible{
+    display: flex;
+    padding-left: 40px;
+
+}
+.distance{
+    padding:20px;
+    border: 2px solid white;
+    margin: 20px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}

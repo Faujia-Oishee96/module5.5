@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(189, 181, 181);
+}
+
+.header img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.header{
+    display: flex;
+    padding: 10px;
+}
+.header h1{
+    font-size: 3rem;
+    padding-left: 20px;
+}
+.flexibility{
+    display: flex;
+    padding: 10px;
+}
+.info-area{
+    padding-left:70px;
+}
+
+.Education-area{
+    padding-left: 140px;
+}
+footer{
+    text-align: center;
+}
+.spacing{
+    padding-left: 450px;
+}
+.spacing2{
+    padding-left: 70px;
+}

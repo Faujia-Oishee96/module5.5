@@ -1,46 +1,95 @@
-*{
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Serif', serif;
     margin: 0;
-    padding: 0;
+    background-color: rgb(189, 181, 181);
 }
 h1{
-    text-align: center;
+    font-size: 40px;
+    color: rgb(87, 59, 25);
 }
-h1:hover{
-    color: rgb(63, 53, 53);
+h2{
+    color: rgb(24, 72, 73);
 }
-.card{
-   
-   margin: 0px auto;
-   max-width: 350px;
-   text-align: center;
-   margin-top: 10px;
-   box-shadow: 5px 10px 0px rgb(233, 243, 233);
-   transition: 0.3s;
-   font-size: 0px;
+h3{
+    color: teal;
 }
-.card:hover{
-   box-shadow: 7px 12px 5px black;
+p{
+    color: rgb(46, 45, 45);
 }
-.typ{
-    width: 320px;
-    height: 100px;
-    padding: 10px;
-    letter-spacing: 2px;
-    text-align: right;
-    font-size: 30px;
-    font-weight: bold;
+.span-clr{
+    color:rgb(153, 89, 44) ;
 }
 .btn{
-    width: 87px;
-    height: 70px;
-    font-size: 30px;
-    font-weight: bold;
-    background-color: rgb(1, 17, 1);
-    color: ivory;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(243, 183, 161),salmon);
+    color: rgb(238, 236, 236);
+    font-weight: 900;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
+
 .btn:hover{
-    background-color: lightcoral;
+    box-shadow: 3px 3px 8px coral;
 }
-.btn-color{
-    background-color: rgb(83, 83, 129) ;
+.flexible-content{
+    display: flex;
+    padding-left: 100px;
+    padding-bottom: 60px;
+}
+.distance{
+    padding-left: 150px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 70%;
+    border-radius: 50%;
+}
+
+.top-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-item{
+    width: 50%;
+    padding: 10px;
+    margin: 50px 50px;
+    background-color: white;
+    
+}
+
+.experience-item:hover{
+    box-shadow: 10px 10px 40px gray;
+}
+#border-content1{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(158, 13, 158),pink);
+    border-image-slice: 1;
+
+}
+#border-content2{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(243, 111, 96), rgb(230, 29, 129));
+    border-image-slice: 1;
+
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+footer{
+    color: rgb(109, 107, 107);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
